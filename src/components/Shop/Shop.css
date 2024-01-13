@@ -1,0 +1,38 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* position: relative; */
+}
+
+.products-container {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+}
+.proceed-link{
+    text-decoration: none;
+}
+.btn-proceed {
+    background: #FF9900;
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+    margin: 10px auto;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagenation{
+    text-align: center;
+    
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.pagenation .selected{
+    background: #FF9900;
+}
